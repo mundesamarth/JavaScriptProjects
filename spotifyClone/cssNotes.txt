@@ -1,0 +1,3 @@
+Always give min-height to the container to make other container to place at the bottom
+height: 100vh takes up the 100% of the view height
+width : 100vh takes up the 100% of the view widht for 70vh it  takes 70 % of it

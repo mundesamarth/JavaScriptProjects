@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=My+Soul&family=Varela+Round&display=swap");
+
+body {
+  background-color: antiquewhite;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: "My Soul", cursive;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  background-color: black;
+  color: white;
+}
+
+nav ul li {
+  padding: 0 12px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.brand img {
+  width: 44px;
+  padding: 0 8px;
+}
+
+.container {
+  min-height: 72vh;
+  background-color: purple;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  margin: 23px auto;
+  width: 80%;
+  border-radius: 12px;
+  padding: 23px;
+  background: url("/spotifyClone/images/bg.jpg");
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: sticky;
+  height: 100px;
+  /* background-color: black; */
+  bottom: 0;
+  background-color: black;
+  color: white;
+}
+.icons {
+  margin-top: 14px;
+  cursor: pointer;
+}
+#progressBar {
+  /* background: linear-gradient(to right, #82CFD0 0%, #82CFD0 50%, #fff 50%, #fff 100%); */
+  border: solid 1px #82CFD0;
+  width: 150vh;
+  text-align: center;
+  background: white;
+  border-radius: 8px;
+  height: 7px;
+  outline: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+.songItemContainer {
+  margin-top: 45px;
+}
+.songItem {
+  height: 50px;
+  display: flex;
+  background-color: white;
+  color: black;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 34px;
+}
+
+.songItem img {
+  width: 43px;
+  margin: 0 23px;
+  border-radius: 50%;
+}
+
+.timeStamp {
+  margin: 0 23px;
+}
+
+.timeStamp i {
+  cursor: pointer;
+}
+.songInfo {
+  position: absolute;
+  left: 12vw;
+  font-family: "Varela Round", sans-serif;
+}
+
+.songInfo img {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}

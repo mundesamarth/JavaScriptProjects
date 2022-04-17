@@ -1,0 +1,2 @@
+font-family: 'My Soul', cursive;
+font-family: 'Varela Round', sans-serif;
